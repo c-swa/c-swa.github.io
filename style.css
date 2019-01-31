@@ -11,14 +11,14 @@ a{color: #2b2bf6;}
     margin: 0;
     padding: 0;
     border: 0;
-    background: #f346e1;
+    background: #CCEEFF;
 }
 #sidebar{width: 200px; height: 400px; 
     margin: 0;
     padding: 0;
     border: 0;
     float: left;
-    background: #f0e811;
+    background: #E6E6E6;
 }
 #content{width: 700px; height: 400px;
     margin: 0;
