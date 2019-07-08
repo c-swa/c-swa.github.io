@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
@@ -156,7 +156,7 @@ pre {
   display: inline-block;
   fill: #828282;
   padding-right: 5px;
-  vertical-align: text-top; }
+  vertical-align: text-bottom; }
 
 .social-media-list li + li {
   padding-top: 5px; }
