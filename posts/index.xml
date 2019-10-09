@@ -5,16 +5,16 @@
     <link>https://c-swa.github.io/posts/</link>
     <description>Recent content in Posts on Christopher Swayne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2019 11:53:13 -0500</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://c-swa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
+      <title>Getting Started</title>
       <link>https://c-swa.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 01 Sep 2019 11:53:13 -0500</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://c-swa.github.io/posts/my-first-post/</guid>
       <description>Well, for a Hello World! post, this seems pretty boring. However, I&amp;rsquo;m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I&amp;rsquo;m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.</description>
