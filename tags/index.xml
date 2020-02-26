@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Christopher Swayne</title>
     <link>https://christopherswayne.com/tags/</link>
     <description>Recent content in Tags on Christopher Swayne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 23:00:00 +0200</lastBuildDate>
+    <language>en-EN</language>
+    <copyright>All rights reserved</copyright>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://christopherswayne.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,9 @@
     <item>
       <title>blogging</title>
       <link>https://christopherswayne.com/tags/blogging/</link>
-      <pubDate>Fri, 11 Oct 2019 23:00:00 +0200</pubDate>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://christopherswayne.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://christopherswayne.com/tags/hugo/</link>
-      <pubDate>Fri, 11 Oct 2019 23:00:00 +0200</pubDate>
-      
-      <guid>https://christopherswayne.com/tags/hugo/</guid>
       <description></description>
     </item>
     
