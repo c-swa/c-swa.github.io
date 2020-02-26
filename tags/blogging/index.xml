@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogging on Christopher Swayne</title>
     <link>https://christopherswayne.com/tags/blogging/</link>
     <description>Recent content in blogging on Christopher Swayne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-EN</language>
-    <copyright>All rights reserved</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 11 Oct 2019 23:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://christopherswayne.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Changing Themes</title>
-      <link>https://christopherswayne.com/changing-themes/</link>
-      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <link>https://christopherswayne.com/changing_themes/</link>
+      <pubDate>Fri, 11 Oct 2019 23:00:00 +0200</pubDate>
       
-      <guid>https://christopherswayne.com/changing-themes/</guid>
-      <description>Sorry for it over a month, and while I&amp;rsquo;ve been busy, my perfectionist attitude with my website has made me again and again recreate the site to my specific desires for a pleasing, and simple blog.
-Now, that I&amp;rsquo;ve finally been able to complete my work of changing the theme, and figuring out after a few painstaking days of how to create, add, and display my posts, the shared trip of my life, knowledge, and experiences can be shared amongst you wonderful readers.</description>
+      <guid>https://christopherswayne.com/changing_themes/</guid>
+      <description>Sorry for it over a month, and while I’ve been busy, my perfectionist attitude with my website has made me again and again recreate the site to my specific desires for a pleasing, and simple blog.
+Now, that I’ve finally been able to complete my work of changing the theme, and figuring out after a few painstaking days of how to create, add, and display my posts, the shared trip of my life, knowledge, and experiences can be shared amongst you wonderful readers.</description>
     </item>
     
     <item>
-      <title>Hello World!</title>
-      <link>https://christopherswayne.com/hello-world/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Hello World</title>
+      <link>https://christopherswayne.com/hello_world/</link>
+      <pubDate>Sun, 01 Sep 2019 23:00:00 +0200</pubDate>
       
-      <guid>https://christopherswayne.com/hello-world/</guid>
-      <description>Well, for a Hello World! post, this seems pretty boring. However, I&amp;rsquo;m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I&amp;rsquo;m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.</description>
+      <guid>https://christopherswayne.com/hello_world/</guid>
+      <description>Well, for a Hello World! post, this seems pretty boring. However, I’m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I’m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.</description>
     </item>
     
   </channel>

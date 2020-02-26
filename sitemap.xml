@@ -1,35 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://christopherswayne.com/tags/blogging/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://christopherswayne.com/changing-themes/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <loc>https://christopherswayne.com/changing_themes/</loc>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://christopherswayne.com/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://christopherswayne.com/tags/hugo/</loc>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://christopherswayne.com/post/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://christopherswayne.com/tags/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T23:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://christopherswayne.com/hello-world/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <loc>https://christopherswayne.com/hello_world/</loc>
+    <lastmod>2019-09-01T23:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -41,7 +46,7 @@
   </url>
   
   <url>
-    <loc>https://christopherswayne.com/contact/</loc>
+    <loc>https://christopherswayne.com/resume/</loc>
   </url>
   
 </urlset>
