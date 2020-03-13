@@ -1,55 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christopher Swayne</title>
     <link>https://christopherswayne.com/</link>
     <description>Recent content on Christopher Swayne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-EN</language>
-    <copyright>All rights reserved</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://christopherswayne.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>I&#39;m not dead!</title>
+      <link>https://christopherswayne.com/post/im_not_dead/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://christopherswayne.com/post/im_not_dead/</guid>
+      <description>So I&amp;rsquo;ve been absent from updating my website as of late. The biggest issue concerning this was that I had upgraded from a 2011 MacBook Pro, to a 2015 MacBook Pro. Sidenote: I&amp;rsquo;d be willing to debate this, but the 2015 MacBook Pro was the last &amp;ldquo;great&amp;rdquo; MacBook Whilst doing this, I ended up committing the grave sin that all people do at some point or another- I never backed up the GoHugo site-generator source code.</description>
+    </item>
+    
+    <item>
       <title>Changing Themes</title>
-      <link>https://christopherswayne.com/changing-themes/</link>
+      <link>https://christopherswayne.com/post/changing_themes/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://christopherswayne.com/changing-themes/</guid>
-      <description>Sorry for it over a month, and while I&amp;rsquo;ve been busy, my perfectionist attitude with my website has made me again and again recreate the site to my specific desires for a pleasing, and simple blog.
-Now, that I&amp;rsquo;ve finally been able to complete my work of changing the theme, and figuring out after a few painstaking days of how to create, add, and display my posts, the shared trip of my life, knowledge, and experiences can be shared amongst you wonderful readers.</description>
+      <guid>https://christopherswayne.com/post/changing_themes/</guid>
+      <description>Sorry for it over a month, and while I’ve been busy, my perfectionist attitude with my website has made me again and again recreate the site to my specific desires for a pleasing, and simple blog.
+Now, that I’ve finally been able to complete my work of changing the theme, and figuring out after a few painstaking days of how to create, add, and display my posts, the shared trip of my life, knowledge, and experiences can be shared amongst you wonderful readers.</description>
     </item>
     
     <item>
-      <title>Hello World!</title>
-      <link>https://christopherswayne.com/hello-world/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Hello World</title>
+      <link>https://christopherswayne.com/post/hello_world/</link>
+      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://christopherswayne.com/hello-world/</guid>
-      <description>Well, for a Hello World! post, this seems pretty boring. However, I&amp;rsquo;m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I&amp;rsquo;m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.</description>
+      <guid>https://christopherswayne.com/post/hello_world/</guid>
+      <description>Well, for a Hello World! post, this seems pretty boring. However, I’m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I’m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.</description>
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://christopherswayne.com/about/</link>
+      <title>About</title>
+      <link>https://christopherswayne.com/top/about/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://christopherswayne.com/top/about/</guid>
+      <description>I&amp;rsquo;m a Computer Science student that attends the University of Missouri - Kansas City, in Kansas City, Missouri. I like to spend my time reading, working on projects, or tinkering with my electronics, and vehicle.</description>
+    </item>
+    
+    <item>
+      <title>My Resume</title>
+      <link>https://christopherswayne.com/top/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://christopherswayne.com/about/</guid>
+      <guid>https://christopherswayne.com/top/resume/</guid>
       <description>GOALS Acquire experience in a challenging and interesting environment, with a focus on learning new technologies and skills.
 SKILLS &amp;amp; ABILITIES • C++ • C# • Java • Python •
 Maintain and Troubleshoot OS X, Linux, and Windows Assembled numerous home systems.
-EXPERIENCE Park Hill School District: November 2018 – Present Technology Support Assistant for Lakeview Middle School, and District Office Maintain fleet of One-to-One devices for Students and Faculty.</description>
-    </item>
-    
-    <item>
-      <title>Contact Me</title>
-      <link>https://christopherswayne.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://christopherswayne.com/contact/</guid>
-      <description>I&amp;rsquo;m usually available by email, and check it regularly. If you&amp;rsquo;re still interested in my work, feel free to check out my social media, located in the menu to the right.</description>
+EXPERIENCE Park Hill School District: November 2018 – Present Technology Support Assistant for Lakeview Middle School, and District Office • Maintain fleet of One-to-One devices for Students and Faculty.</description>
     </item>
     
   </channel>
