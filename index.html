@@ -1,68 +1,456 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Christopher Swayne
-        </title>
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-        <div class="nav_bar">
-            <span>
-                <h2 class="nav_bar_text">
-                    <a class="current nav_bar_button" id="home_button" href="index.html">home</a>
-                    <a class="non_current nav_bar_button" id="posts_button" href="posts/index.html">posts</a>
-                    <a class="non_current nav_bar_button" id="archive_button">archive</a>
-                    <a class="non_current nav_bar_button" id="question_button">?</a>
-                    <a class="non_current nav_bar_button" id="about_button" href="about.html">about</a>
-                </h2>
-            </span>
-        </div>
-        <div class="container">
-            <img id="cover_image" src="imgs/cover.jpg" />
-            <div class="top_posts">
-                <h2>Recent Posts</h2>
-                <div class="card" onclick="location.href='posts/2021_03_15.html'">
-                    <h4>Site Redesign</h4>
-                    <p>
-                        So as some of you may notice, I redesigned my website. With the express goal of making 
-                        this a better and more independent place for me to display my thoughts, my projects, and...
-                    </p>
-                </div>
-                <div class="card">
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.67.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    
+    <meta property="og:site_name" content="Christopher Swayne">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://christopherswayne.com/img/cover.jpg">
+    <meta property="twitter:image" content="https://christopherswayne.com/img/cover.jpg" />
+    
+
+    
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Christopher Swayne, blogging, computers, security, technology">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Christopher Swayne-Christopher Swayne</title>
+
+    <link rel="canonical" href="/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Christopher Swayne</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                    
+                    
+		    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/cover.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Christopher Swayne </h1>
+                    
+		    <span class="subheading">Beautiful things don&#39;t seek for attention - Sean O&#39;Connell</span>
                 </div>
             </div>
-            <div class="friend_suggestions">
-                <h2>Friends' Websites</h2>
-                <p>
-                    These links are to my friends' and associates' websites. These sites are generally close 
-                    people who I have worked and studied alongside throughout my post-secondary education. 
-                    <br />
-                    I'm happy to have had the pleasure of knowing studying with these great minds.
-                </p>
-                <p>
-                    <a href="https://angad-singh15.github.io/My-Website/" class="friend_links">http:// angad</a>
-                    <br/>
-                    <a href="https://ejmg.github.io/" class="friend_links">http:// elias</a>
-                    <br/>
-                    <a href="https://michaelcu.github.io" class="friend_links">http:// michael</a>
-                    <br/>
-                    <a href="https://nathangawith.com" class="friend_links">http:// nathan</a>
-                    <br/>
-                    <a href="https://amadeusine.com/" class="friend_links">http:// sam</a>
-                    <br/>
-                    <a href="http://twheaton.com" class="friend_links">http:// tyler</a>
-                    <br/>
+        </div>
+    </div>
+</header>
+
+
+
+  
+<div class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
+            
+
+<div class="post-preview">
+    <a href="https://christopherswayne.com/post/summer_plan_update/">
+        <h2 class="post-title">
+            Summer Plan Update!
+        </h2>
+	
+        <h3 class="post-subtitle">
+            &gt; Reviewing goals, and progress
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            One Month In It&rsquo;s been a while since I last posted an update, so I felt one should be in order. Life during the pandemic hasn&rsquo;t changed much, and we&rsquo;ve all still been spending our time with loved ones at home. I&rsquo;m still working, as I&rsquo;ve been lucky enough to be considered an essential worker. Especially due to the time I&rsquo;ve spent between work and home, I haven&rsquo;t really been able to delve signifcantly into my goals, aside from a few things.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Christopher Swayne Tuesday, June 23, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://christopherswayne.com/post/summer_plans/">
+        <h2 class="post-title">
+            Plans for Summer!
+        </h2>
+	
+        <h3 class="post-subtitle">
+            &gt; Progression through the pandemic
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            What a way to end the school year, or I guess, way to start the year. This spring semester has been rather hectic, as everyone is aware of what has gone on. However, despite this tricky semester we&rsquo;ve had at University, I&rsquo;ve been able to hold steady and keep learning through challenging circumstances. Remote learning is fun at first, but it&rsquo;s not great nor easy long term. Scheduling time to finish assignments as well as study while sitting at the same desk in the same room almost every hour for every day wears you out.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Christopher Swayne Tuesday, May 26, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://christopherswayne.com/post/im_not_dead/">
+        <h2 class="post-title">
+            I&#39;m not dead!
+        </h2>
+	
+        <h3 class="post-subtitle">
+            &gt; Starting Over ... again
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            So I&rsquo;ve been absent from updating my website as of late. The biggest issue concerning this was that I had upgraded from a 2011 MacBook Pro, to a 2015 MacBook Pro. Sidenote: I&rsquo;d be willing to debate this, but the 2015 MacBook Pro was the last &ldquo;great&rdquo; MacBook Whilst doing this, I ended up committing the grave sin that all people do at some point or another- I never backed up the GoHugo site-generator source code.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Christopher Swayne Thursday, March 12, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://christopherswayne.com/post/changing_themes/">
+        <h2 class="post-title">
+            Changing Themes
+        </h2>
+	
+        <h3 class="post-subtitle">
+            &gt; Starting Over
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            Sorry for it over a month, and while I’ve been busy, my perfectionist attitude with my website has made me again and again recreate the site to my specific desires for a pleasing, and simple blog.
+Now, that I’ve finally been able to complete my work of changing the theme, and figuring out after a few painstaking days of how to create, add, and display my posts, the shared trip of my life, knowledge, and experiences can be shared amongst you wonderful readers.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Christopher Swayne Friday, October 11, 2019
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://christopherswayne.com/post/hello_world/">
+        <h2 class="post-title">
+            Hello World
+        </h2>
+	
+        <h3 class="post-subtitle">
+            &gt; Getting Started
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            Well, for a Hello World! post, this seems pretty boring. However, I’m much more pleased with this than my previous attempt to use Jekyll for local hosting to test, and build my site. Hugo has been a much easier start, and has a simpler methodology to building the site. While I’m not an expert by any means in HTML, or CSS, this attractive base theme certainly has its uses in making a good foundation for me to modify and create something.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Christopher Swayne Thursday, September 19, 2019
+    
+    
+    </p>
+
+</div>
+<hr>
+
+
+            
+
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+    
+
+    
+	
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="http://twheaton.com">Tyler</a></li>
+            
+            <li><a target="_blank" href="https://nathangawith.com/">Nathan</a></li>
+            
+            <li><a target="_blank" href="https://michaelcu.github.io">Michael</a></li>
+            
+            <li><a target="_blank" href="https://angad-singh15.github.io/My-Website/">Angad</a></li>
+            
+            <li><a target="_blank" href="https://amadeusine.com/">Sam</a></li>
+            
+            <li><a target="_blank" href="https://ejmg.github.io/">Elias</a></li>
+            
+        </ul>
+    </section>
+    
+
+    
+    
+</div>
+
+	</div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/c-swa">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+            <li>
+                <a target="_blank" href="https://www.flickr.com/photos/christopheraramswayne/">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+    
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Christopher Swayne 2020
+                    <br>
                 </p>
             </div>
         </div>
-        <div class="footer">
-            <span>
-                <a class="copyright">Copyright &#169; 2021</a>
-                <br/>
-                <a>Christopher Aram Swayne</a>
-            </span>
-        </div>
-    </body>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
 </html>
